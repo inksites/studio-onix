@@ -31,9 +31,8 @@ img,video{display:block;max-width:100%}
 
 /* topo */
 header{position:fixed;top:30px;left:0;right:0;z-index:30;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:12px clamp(16px,3vw,40px);background:rgba(10,10,10,.92);backdrop-filter:blur(8px);color:var(--branco)}
-.selo{display:flex;flex-direction:column;align-items:center;justify-content:center;width:52px;height:52px;border:1px solid var(--ouro);text-decoration:none;line-height:1}
-.selo small{font:400 italic 11px var(--display);color:var(--suave-esc)}
-.selo b{font:500 17px var(--display);letter-spacing:.12em}
+.selo{display:flex;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--ouro);border-radius:50%;text-decoration:none;line-height:1;transition:background .3s}.selo:hover{background:rgba(255,255,255,.06)}
+.selo b{font:400 24px var(--display);margin-top:3px}
 nav.menu{display:flex;gap:30px;font:400 12px var(--body);letter-spacing:.16em;text-transform:uppercase}
 nav.menu a{text-decoration:none;color:var(--suave-esc);padding-bottom:4px;border-bottom:1px solid transparent}
 nav.menu a:hover{color:var(--branco);border-color:var(--rosa)}
@@ -147,7 +146,7 @@ footer b span{color:var(--ouro)}
 <div class="demo"><span class="longo">Modelo de demonstração · negócio, fotos e preços ilustrativos</span><span class="curto">Demonstração</span><a href="https://inksites.github.io/salao/">Quero um site assim</a></div>
 
 <header>
-  <a class="selo" href="#topo" aria-label="Studio Ônix, início"><small>studio</small><b>ÔNIX</b></a>
+  <a class="selo" href="#topo" aria-label="Studio Ônix, início"><b>Ô</b></a>
   <nav class="menu"><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#precos">Preços</a><a href="#equipe">Equipe</a><a href="#duvidas">Dúvidas</a><a href="#visita">Contato</a></nav>
   <a class="agendar" href="#visita">Agendar</a>
 </header>
